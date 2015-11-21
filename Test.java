@@ -1,6 +1,6 @@
-private void doSomething(String action) {
+private void doSomething(Action action) {
   switch (action) {
-    case "OPEN_DOOR":
+    case Action.OPEN_DOOR:
        open_door();
        break;
   }
